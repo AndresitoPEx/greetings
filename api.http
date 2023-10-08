@@ -1,0 +1,10 @@
+POST http://localhost:3000/api/tasks
+
+{
+    "title": "Task 1",
+    "description": "Description 1",
+    "completed": "true",
+    "createdAt": "2019-12-01T00:00:00.000Z",
+    "updatedAt": "2019-12-01T00:00:00.000Z" 
+}
+
