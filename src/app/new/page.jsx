@@ -5,8 +5,6 @@ import { useEffect, useState } from "react";
 
 const NewPage = ({ params }) => {
 
-    console.log("❌❌❌", params);
-
     const router = useRouter();
 
     const [title, setTitle] = useState("");
