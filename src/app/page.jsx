@@ -2,7 +2,7 @@ import TaskCard from "@/components/TaskCard";
 
 
 async function loadTasks() {
-  return await fetch('http://localhost:3000/api/tasks')
+  return await fetch('api/tasks')
     .then(response => response.json())
 
 }
