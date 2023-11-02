@@ -17,8 +17,6 @@ const HomePage = async () => {
   return (
     <section className="container mx-auto">
       <div>
-        <h1 className="text-white">Enviale un mensaje a tu mascota</h1>
-
         <div className="text-white grid grid-cols-3 gap-3 mt-10" >
           {tasks.map(task => (
             <TaskCard key={task.id} task={task} />
